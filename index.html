@@ -7,36 +7,37 @@
 </head>
 
 <body>
-    <form action="https://formspree.io/your@email.com" method="POST">
+    <form action="https://formspree.io/zija@op.pl" method="POST">
         <label for="name">Imię:</label>
-        <input type="text" name="name" id="name"><br>
+        <input type="text" name="Imię" id="name"><br>
         <label for="surname">Nazwisko:</label>
-        <input type="text" name="surname" id="surname"><br>
+        <input type="text" name="Nazwisko" id="surname"><br>
         <label for="email">Email:</label>
-        <input type="email" name="email" id="email"><br>
+        <input type="email" name="Email" id="email"><br>
         <label for="tel">Telefon:</label>
-        <input type="tel" name="tel" id="tel"><br>
+        <input type="tel" name="Telefon" id="tel"><br>
         <label for="select">Wybierz miasto:</label>
-        <select name="select" id="select">
-            <option value="value1" selected>Kraków</option>
-            <option value="value1">Warszawa</option>
-            <option value="value1">Gdańsk</option>
-        </select><br>
-
-        <label for="gender">Płeć:</label><br>
+        <select name="Miasto" id="select">
+            <option value="Kraków" selected>Kraków</option>
+            <option value="Warszawa">Warszawa</option>
+            <option value="Gdańsk">Gdańsk</option>
+        </select>
+        <br>
+        <label for="Płeć">Płeć:</label><br>
         <label for="women">Kobieta</label>
-        <input type="radio" name="women" id="women"><br>
+        <input type="radio" name="Płeć" id="women" value="Kobieta">
+        <br>
         <label for="men">Mężczyzna</label>
-        <input type="radio" name="men" id="men"><br>
+        <input type="radio" name="Płeć" id="men" value="Mężczyzna">
+        <br>
         <label for="checkbox">Zgoda na przetwarzanie danych</label>
-
-        <input type="checkbox" name="zgoda" id="checkbox"><br>
+        <input type="checkbox" name="Zgoda" id="checkbox" value="Tak">
+        <br>
         <label for="textarea">Wiadomość:</label><br>
-        <textarea type="textarea" maxlenght="1000" name="textarea" id="textarea" cols="40" rows="15"></textarea><br>
-        <label for="wyslij"></label>
+        <textarea name="Wiadomość" id="textarea" cols="40" rows="15"></textarea>
+        <br>
         <input type="submit" value="WYŚLIJ">
     </form>
-
 
 </body>
 
